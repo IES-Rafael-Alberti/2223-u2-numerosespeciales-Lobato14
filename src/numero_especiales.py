@@ -2,11 +2,13 @@
 def sumaParesimpares(numInicial, nunFinal):
     
     if numInicial and numFinal %3 == 0:
-        suma = suma 
-        contador = contador + 1
+        for numero in range(numInicial, numFinal):
+            suma = numero + numero
+            contador += 1
     else:
-        suma = suma
-        contador = contador + 1
+        for numero in range(numInicial, numFinal):
+            suma = numero + numero
+            contador += 1
     return str(suma)
 
 
