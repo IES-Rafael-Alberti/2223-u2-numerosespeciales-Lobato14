@@ -13,7 +13,6 @@ if __name__ == "__main__":
     # Entrda
     suma = 0
     contador = 0
-    listaNumeros = []
     numInicial = int(input("Ingrese el número inicial: "))
     numFinal = int(input("Ingrese el número final: "))
     parImpar = input("¿Deseas calcular la suma de pares o impares?: ")
