@@ -1,5 +1,5 @@
 
-def sumaParesimpares(numInicial, numFinal):
+def sumaParesimpares(numInicial, numFinal, suma):
     for numero in range(numInicial, numFinal + 1):
         if numInicial % 2 == 0:
             if parImpar.lower() == "pares" and numero % 2 == 0:
