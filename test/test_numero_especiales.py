@@ -1,4 +1,4 @@
-import numeros_especiales
+from src. numero_especiales import numeros_especiales
 
 def test_calcular_suma_pares_no_multiplos_de_3():
     assert numeros_especiales.calcular_suma_pares_no_multiplos_de_3(10, 20) == 72

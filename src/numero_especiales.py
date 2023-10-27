@@ -1,16 +1,22 @@
-# This is a sample Python script.
 
-# Press Mayús+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+def sumaParesimpares(numInicial, nunFinal):
+    
+    if numInicial and numFinal %3 == 0:
+        suma = suma 
+        contador = contador + 1
+    else:
+        suma = suma
+        contador = contador + 1
+    return str(suma)
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+if __name__ == "__main__":
+    # Entrda
+    contador = 0
+    listaNumeros = []
+    numInicial = int(input("Ingrese el número inicial: "))
+    numFinal = int(input("Ingrese el número final: "))
+    parImpar = input("¿Deseas calcular la suma de pares o impares?: ")
+    # Proceso
 
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    # Salida
