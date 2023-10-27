@@ -1,6 +1,5 @@
 
 def sumaParesimpares(numInicial, numFinal):
-    
     for numero in range(numInicial, numFinal + 1):
         if numInicial % 2 == 0:
             if parImpar.lower() == "pares" and numero % 2 == 0:
@@ -8,8 +7,7 @@ def sumaParesimpares(numInicial, numFinal):
             elif parImpar.lower() == "impares" and numero % 2 != 0:
                 suma += numero
         numInicial += 1
-    return str(suma)
-
+    return suma
 
 if __name__ == "__main__":
     # Entrda
@@ -20,5 +18,6 @@ if __name__ == "__main__":
     numFinal = int(input("Ingrese el número final: "))
     parImpar = input("¿Deseas calcular la suma de pares o impares?: ")
     # Proceso
-
+    resultado = sumaParesimpares(numInicial, numFinal)
     # Salida
+    print("La suma de los números pares que no son múltiplos de 3 en el rango de 10 a 20 es: ", resultado)
